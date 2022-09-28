@@ -1,0 +1,21 @@
+.myheader {
+    background-color: #ffc2fe;
+}
+
+.booking {
+    width: 100%;
+    letter-spacing: 0.1rem;
+}
+
+.content-header {
+    padding: 20px 10px;
+}
+
+.my-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.my-card {
+    margin: 10px 70px 50px;
+}
