@@ -12,22 +12,26 @@ class car {
     "model";
     "name";
     
-    constructor (Supercar, Ferrari_F8) {
-    this.model = Supercar;
-    this.name = Ferrari_F8;
+    constructor (model, name) {
+    this.model = model;
+    this.name = name;
     }
 
-    function summary() {
+    summary() {
         return this.model + " " + this.name;
     }
     
-    }
+ }
     
     var car1 = new car("Supercar", "Ferrari F8");
-    var car2 = new car("Jeep", "Gladiator");
-    var car3 = new car("Stretchlimousine", "Hummer H2");
+    console.log(car1.summary());
 
-    console.log(summary());
+    var car2 = new car("Jeep", "Gladiator");
+    console.log(car2.summary());
+
+    var car3 = new car("Stretchlimousine", "Hummer H2");
+    console.log(car3.summary());
+
     
     
     // animal
@@ -37,22 +41,23 @@ class car {
     "species";
     "name";
     
-    constructor (Mammal, Dolphin) {
-    this.species = Mammal;
-    this.name = Dolphin;
+    constructor (species, name) {
+    this.species = species;
+    this.name = name;
     }
 
-    function summary() {
+    summary() {
         return this.species + " " + this.name;
     }
     
     }
     
-    var animal1 = new animal(Mammal, Dolphin);
-    var animal2 = new animal(Carnivore, Lion);
-    var animal3 = new animal(Herbivore, Cow)
-
-    console.log(summary());
+    var animal1 = new animal("Mammal", "Dolphin");
+    console.log(animal1.summary());
+    var animal2 = new animal("Carnivore", "Lion");
+    console.log(animal2.summary());
+    var animal3 = new animal("Herbivore", "Cow");
+    console.log(animal3.summary());
     
     // person
     
@@ -61,20 +66,21 @@ class car {
     "firstName";
     "lastName";
     
-    constructor (Max, Muster) {
-    this.firstName = Max;
-    this.lastName = Muster;
+    constructor (firstName, lastName) {
+    this.firstName = firstName;
+    this.lastName = lastName;
     }
 
-    function summary() {
+    summary() {
         return this.firstName + " " + this.lastName;
     }
     
     }
     
-    var person1 = new person(Max, Muster);
-    var person2 = new person(Lisa, Langer);
-    var person3 = new person(Simon, Sonnentor);
-
-    console.log(summary());
+    var person1 = new person("Max", "Muster");
+    console.log(person1.summary());
+    var person2 = new person("Lisa", "Langer");
+    console.log(person2.summary());
+    var person3 = new person("Simon", "Sonnentor");
+    console.log(person3.summary());
     
