@@ -32,8 +32,10 @@ class car {
     var car3 = new car("Stretchlimousine", "Hummer H2");
     console.log(car3.summary());
 
-    
-    
+    document.getElementById("sCar").innerHTML = car1.summary();
+    document.getElementById("je").innerHTML = car2.summary();
+    document.getElementById("limo").innerHTML = car3.summary();
+ 
     // animal
     
     class animal {
@@ -58,6 +60,10 @@ class car {
     console.log(animal2.summary());
     var animal3 = new animal("Herbivore", "Cow");
     console.log(animal3.summary());
+
+    document.getElementById("dol").innerHTML = animal1.summary();
+    document.getElementById("lio").innerHTML = animal2.summary();
+    document.getElementById("cow").innerHTML = animal3.summary();
     
     // person
     
@@ -83,4 +89,8 @@ class car {
     console.log(person2.summary());
     var person3 = new person("Simon", "Sonnentor");
     console.log(person3.summary());
+    
+    document.getElementById("mMuster").innerHTML = person1.summary();
+    document.getElementById("lLanger").innerHTML = person2.summary();
+    document.getElementById("sSonnentor").innerHTML = person3.summary();
     
