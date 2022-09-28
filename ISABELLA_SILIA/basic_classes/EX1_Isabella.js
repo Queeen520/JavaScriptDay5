@@ -24,6 +24,9 @@ class car {
     }
     
     var car1 = new car("Supercar", "Ferrari F8");
+    var car2 = new car("Jeep", "Gladiator");
+    var car3 = new car("Stretchlimousine", "Hummer H2");
+
     console.log(summary());
     
     
@@ -46,6 +49,9 @@ class car {
     }
     
     var animal1 = new animal(Mammal, Dolphin);
+    var animal2 = new animal(Carnivore, Lion);
+    var animal3 = new animal(Herbivore, Cow)
+
     console.log(summary());
     
     // person
@@ -66,6 +72,9 @@ class car {
     
     }
     
-    var person1 = new person(Max, Muster)
+    var person1 = new person(Max, Muster);
+    var person2 = new person(Lisa, Langer);
+    var person3 = new person(Simon, Sonnentor);
+
     console.log(summary());
     
