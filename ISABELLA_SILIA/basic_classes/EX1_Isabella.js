@@ -12,12 +12,12 @@ class car {
     "model";
     "name";
     
-    constructor (model, name) {
+    constructor (Supercar, Ferrari_F8) {
     this.model = Supercar;
     this.name = Ferrari_F8;
     }
 
-    summary() {
+    function summary() {
         return this.model + " " + this.name;
     }
     
@@ -42,7 +42,7 @@ class car {
     this.name = Dolphin;
     }
 
-    summary() {
+    function summary() {
         return this.species + " " + this.name;
     }
     
@@ -66,7 +66,7 @@ class car {
     this.lastName = Muster;
     }
 
-    summary() {
+    function summary() {
         return this.firstName + " " + this.lastName;
     }
     
